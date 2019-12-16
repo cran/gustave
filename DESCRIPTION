@@ -4,8 +4,8 @@ Title: A User-Oriented Statistical Toolkit for Analytical Variance
         Estimation
 Depends: R(>= 3.2.5)
 Imports: methods, utils, stats, Matrix
-Suggests: testthat, sampling, magrittr, tibble, dplyr, data.table
-Version: 0.4.0
+Suggests: testthat, covr, sampling, magrittr, tibble, dplyr, data.table
+Version: 0.4.1
 Authors@R: person("Martin", "Chevalier", role = c("aut", "cre", "cph"), email = "martin.chevalier@insee.fr")
 Author: Martin Chevalier [aut, cre, cph]
 Maintainer: Martin Chevalier <martin.chevalier@insee.fr>
@@ -18,8 +18,8 @@ Collate: 'data.R' 'utils.R' 'define_variance_wrapper.R'
         'standard_statistic_wrapper.R' 'qvar.R'
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.0
+RoxygenNote: 7.0.2
 NeedsCompilation: no
-Packaged: 2018-08-30 14:41:40 UTC; root
+Packaged: 2019-12-16 22:06:08 UTC; gc004y
 Repository: CRAN
-Date/Publication: 2018-08-31 08:50:03 UTC
+Date/Publication: 2019-12-16 23:00:06 UTC
